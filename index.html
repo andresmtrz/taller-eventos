@@ -7,7 +7,7 @@
     <script src="eventos.js" defer></script>
 </head>
 <body>
-    <div style="padding: 5px; background-color: green;" id="elDiv"><button onclick="alert('Hola!')" id="butSaludo">Saludar!</button></div>
+    <div style="padding: 5px; background-color: green;" id="elDiv"><button onclick="event.stopPropagation(); alert('Hola!')" id="butSaludo">Saludar!</button></div>
     
 </body>
 </html>
